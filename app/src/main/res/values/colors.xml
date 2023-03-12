@@ -23,4 +23,6 @@
     <color name="text_color">#FFFFFFFF</color>
     <color name="primary_text_color">#FF3700B3</color>
 
+    <color name="bgColor">#333395ff</color>
+
 </resources>

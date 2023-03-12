@@ -21,6 +21,8 @@ import androidx.core.splashscreen.SplashScreen;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import com.kernelpoint.treeco2.admin.Admin;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     private ViewPager viewPager;
     private LinearLayout dotsLayout;
@@ -39,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        }
         SplashScreen.installSplashScreen(this);
 
-        Intent intent=new Intent(this,Registration.class);
+        Intent intent=new Intent(this, Admin.class);
         startActivity(intent);
         // Checking for first time launch - before calling setContentView()
         if (!Globals.shouldShowSlider()) {

@@ -22,4 +22,10 @@ public class Uti {
 
         return sb.toString();
     }
+
+    public static void getLocation(){
+
+
+
+    }
 }

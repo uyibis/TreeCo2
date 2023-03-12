@@ -72,6 +72,7 @@
     <style name="Theme.TreeCo2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.TreeCo2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
     <style name="Theme.Transparent" parent="Theme.AppCompat.Dialog">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
